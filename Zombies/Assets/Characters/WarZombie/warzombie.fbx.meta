@@ -6,7 +6,27 @@ ModelImporter:
   - first:
       74: -203655887218126122
     second: mixamo.com
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WorldWar_zombie_material
+    second: {fileID: 2100000, guid: 6346f05780c984444b050278b17dbb7d, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: world_war_zombie_diffuse
+    second: {fileID: 2800000, guid: 59f5634c7c09dfa45b733b01734861d6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: world_war_zombie_normal
+    second: {fileID: 2800000, guid: 063c58ee77ec6274781955b6310f2b75, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: world_war_zombie_specular
+    second: {fileID: 2800000, guid: 9dfc63540ac87424ba71f7dbfc2f4f48, type: 3}
   materials:
     materialImportMode: 1
     materialName: 0
@@ -75,9 +95,7 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
-  referencedClips:
-  - 3b7f47361f1a28d49afb0cbe43e2b579
-  - acb2d537fa0e89142af493a6614a54c6
+  referencedClips: []
   importAnimation: 1
   humanDescription:
     serializedVersion: 3

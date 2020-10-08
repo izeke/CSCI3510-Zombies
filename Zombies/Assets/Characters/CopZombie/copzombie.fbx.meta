@@ -6,7 +6,32 @@ ModelImporter:
   - first:
       74: -203655887218126122
     second: mixamo.com
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: body_M
+    second: {fileID: 2100000, guid: 352db2096c488ce4199088093cd2e822, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: glass_hair_M
+    second: {fileID: 2100000, guid: 57606813990cbad4dafa8c8c39ab358c, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: FuzZombie__diffuse
+    second: {fileID: 2800000, guid: 85804e5bb3bb8bd469548d1b11087308, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: FuzZombie__normal
+    second: {fileID: 2800000, guid: 675c377b67a03d047a88121c4554aa00, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: FuzZombie__specular
+    second: {fileID: 2800000, guid: c8a551b0b051c7646b5f7e9a52747c6b, type: 3}
   materials:
     materialImportMode: 1
     materialName: 0
@@ -75,9 +100,7 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
-  referencedClips:
-  - 1e701c0192c3e3b4a8e7217cf30aa47d
-  - b9703f014c68862448edb10296eea217
+  referencedClips: []
   importAnimation: 1
   humanDescription:
     serializedVersion: 3
