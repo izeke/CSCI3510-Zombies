@@ -27,18 +27,18 @@ public class EnemyController : MonoBehaviour
         if (distance <= lookRadius) {
             agent.SetDestination(target.position);
             PlaySound();
-            animator.SetFloat("forward", 1.0f);
+            animator.SetFloat("forward", Mathf.Min(distance - agent.stoppingDistance, 1.0f));
         } else {
             agent.SetDestination(transform.position);
             groan.Stop();
             animator.SetFloat("forward", 0.0f);
         }
 
-        if (distance <= agent.stoppingDistance) {
-            //Stub
-            animator.SetFloat("forward", 0.0f);
-            FaceTarget();
-        }
+        // if (distance <= agent.stoppingDistance) {
+        //     //Stub
+        //     animator.SetFloat("forward", 0.0f);
+        //     FaceTarget();
+        // }
     }
 
     void PlaySound() {
