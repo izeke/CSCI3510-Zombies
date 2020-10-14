@@ -348,22 +348,6 @@ PrefabInstance:
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 6144128522063115672, guid: 69b3ed50361268040b82aeb783be5641, type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6144128522063115672, guid: 69b3ed50361268040b82aeb783be5641, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6144128522063115672, guid: 69b3ed50361268040b82aeb783be5641, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6144128522063115672, guid: 69b3ed50361268040b82aeb783be5641, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6144128522063115684, guid: 69b3ed50361268040b82aeb783be5641, type: 3}
       propertyPath: m_Name
       value: lola_b_styperek
