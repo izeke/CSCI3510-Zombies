@@ -866,6 +866,14 @@ PrefabInstance:
       propertyPath: lookRadius
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 1142922748471952665, guid: ba4e06fa6a1734242ab9ea1673b4e09c, type: 3}
+      propertyPath: m_StoppingDistance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1142922748471952665, guid: ba4e06fa6a1734242ab9ea1673b4e09c, type: 3}
+      propertyPath: m_Speed
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 6059522412844529246, guid: ba4e06fa6a1734242ab9ea1673b4e09c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.9906173
@@ -1170,6 +1178,14 @@ PrefabInstance:
     - target: {fileID: -5981074593662558931, guid: 7d9d047a58933e54f8f86b97dbec4433, type: 3}
       propertyPath: lookRadius
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5289702719657048651, guid: 7d9d047a58933e54f8f86b97dbec4433, type: 3}
+      propertyPath: m_StoppingDistance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5289702719657048651, guid: 7d9d047a58933e54f8f86b97dbec4433, type: 3}
+      propertyPath: m_Speed
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 7332873009953504523, guid: 7d9d047a58933e54f8f86b97dbec4433, type: 3}
       propertyPath: m_Name
@@ -1555,6 +1571,14 @@ PrefabInstance:
     - target: {fileID: -8920686205986333621, guid: 38e76572af618a04f8b64d574bb37be1, type: 3}
       propertyPath: lookRadius
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512943671354209117, guid: 38e76572af618a04f8b64d574bb37be1, type: 3}
+      propertyPath: m_StoppingDistance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512943671354209117, guid: 38e76572af618a04f8b64d574bb37be1, type: 3}
+      propertyPath: m_Speed
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 4658744416599969741, guid: 38e76572af618a04f8b64d574bb37be1, type: 3}
       propertyPath: m_LocalPosition.x
